@@ -1,5 +1,5 @@
-#ifndef VIT_PRINT
-#define VIT_print
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdlib.h>
 #include <stdarg.h>
