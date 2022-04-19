@@ -73,7 +73,4 @@ int print_address(va_list l, flags_t *f);
 /* print_percent */
 int print_percent(va_list l, flags_t *f);
 
-char *do_precision(char *str, int precision, char spec);
-void get_width_precision(printh_t *help_s, va_list args);
-
 #endif
