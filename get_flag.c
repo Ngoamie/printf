@@ -1,14 +1,8 @@
-<<<<<<< HEAD
 #include "main.h"
 
 /**
  * get_flag - turns on flags if _printf finds
  * a flag modifier in the format string
-=======
-#include "alx.h"
-/**
- * get_flag - turns on flags if _printf finds
->>>>>>> 55c485969fb24b71717137d573fd287bdc337eac
  * @s: character that holds the flag specifier
  * @f: pointer to the struct flags in which we turn the flags on
  *
@@ -16,7 +10,6 @@
  */
 int get_flag(char s, flags_t *f)
 {
-<<<<<<< HEAD
 	int i = 0;
 
 	switch (s)
@@ -36,23 +29,4 @@ int get_flag(char s, flags_t *f)
 	}
 
 	return (i);
-=======
-int i = 0;
-switch (s)
-{
-case '+':
-f->plus = 1;
-i = 1;
-break;
-case ' ':
-f->space = 1;
-i = 1;
-break;
-case '#':
-f->hash = 1;
-i = 1;
-break;
-}
-return (i);
->>>>>>> 55c485969fb24b71717137d573fd287bdc337eac
 }
