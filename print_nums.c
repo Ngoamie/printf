@@ -70,10 +70,6 @@ int count_digit(int i)
 {
 	unsigned int d = 0;
 	unsigned int u;
-	unsigned int is_short = h;
-	unsigned int is_long = l;
-	unsigned int extra = 0;
-	unsigned int left = -;
 
 	if (i < 0)
 		u = i * -1;
